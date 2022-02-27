@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.springbank</groupId>
 	<artifactId>user.cmd.api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>user.cmd.api</name>
 	<description>User Command API Project</description>
 	<properties>
@@ -32,6 +32,12 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
+			<groupId>org.axonframework</groupId>
+			<artifactId>axon-spring-boot-starter</artifactId>
+			<version>4.5.8</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
@@ -40,6 +46,11 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.springbank</groupId>
+			<artifactId>user.core.api</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 
