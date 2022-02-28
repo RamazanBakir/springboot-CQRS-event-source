@@ -16,6 +16,7 @@ import java.util.UUID;
 @RestController
 @RequestMapping(path = "/api/v1/registerUser")
 public class RegisterUserController {
+    //command dispatching mechanism
     private final CommandGateway commandGateway;
 
     @Autowired
